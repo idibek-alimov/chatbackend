@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: postgres:13-alpine
+    environment:
+      POSTGRES_DB: jonibekdb
+      POSTGRES_USER: jonibek
+      POSTGRES_PASSWORD: jonik1997
+    ports:
+      - "5444:5432"  # Correcting the port mapping to 5432, which is the default PostgreSQL port
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  
+  springboot:
+    image: chatapi  # Replace 'mannershopapi' with the appropriate image name
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgresql:5432/jonibekdb
+      SPRING_DATASOURCE_USERNAME: jonibek
+      SPRING_DATASOURCE_PASSWORD: jonik1997
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgresql  # Ensure that PostgreSQL is started before starting the Spring Boot service
+
+volumes:
+  postgres-data: {}

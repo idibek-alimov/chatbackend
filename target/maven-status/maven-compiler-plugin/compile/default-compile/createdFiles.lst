@@ -1,0 +1,15 @@
+ru/alimov/chat/dto/ChatMessageDto.class
+ru/alimov/chat/model/ChatUser.class
+ru/alimov/chat/dto/ChatMessageDto$ChatMessageDtoBuilder.class
+ru/alimov/chat/dto/ChatUserDto.class
+ru/alimov/chat/config/WebConfig.class
+ru/alimov/chat/dto/ChatUserDto$ChatUserDtoBuilder.class
+ru/alimov/chat/MessagingStompWebsocketApplication.class
+ru/alimov/chat/repository/ChatUserRepository.class
+ru/alimov/chat/service/ChatService.class
+ru/alimov/chat/model/ChatMessage$ChatMessageBuilder.class
+ru/alimov/chat/controller/ChatController.class
+ru/alimov/chat/model/ChatUser$ChatUserBuilder.class
+ru/alimov/chat/model/ChatMessage.class
+ru/alimov/chat/config/WebSocketConfig.class
+ru/alimov/chat/repository/ChatMessageRepository.class

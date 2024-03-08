@@ -1,0 +1,11 @@
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/model/ChatMessage.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/dto/ChatMessageDto.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/model/ChatUser.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/service/ChatService.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/repository/ChatMessageRepository.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/config/WebSocketConfig.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/controller/ChatController.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/repository/ChatUserRepository.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/dto/ChatUserDto.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/config/WebConfig.java
+/home/alimov/Desktop/test/websocket/chat/src/main/java/ru/alimov/chat/MessagingStompWebsocketApplication.java
